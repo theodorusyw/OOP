@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="8Mei2025/src"/>
+	<classpathentry kind="src" path="Cinema/src"/>
+	<classpathentry kind="src" path="ClassManagement/src"/>
+	<classpathentry kind="src" path="First/src"/>
+	<classpathentry kind="src" path="Inheritance/src"/>
+	<classpathentry kind="src" path="Library/src"/>
+	<classpathentry kind="src" path="Movie/src"/>
+	<classpathentry kind="src" path="Restaurant/Restaurant/src"/>
+	<classpathentry excluding="main/" kind="src" path="Restaurant/src"/>
+	<classpathentry kind="src" path="Restaurant/src/main"/>
+	<classpathentry kind="src" path="TicTacToe/src"/>
+	<classpathentry kind="src" path="WrapperClass/src"/>
+	<classpathentry kind="output" path="8Mei2025/out/production/8Mei2025"/>
+</classpath>
