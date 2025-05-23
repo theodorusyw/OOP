@@ -1,5 +1,5 @@
 public class OAuthLogin implements ILogin {
-    private String expectedToken;
+    public String expectedToken;
 
     public OAuthLogin(String expectedToken) {
         this.expectedToken = expectedToken;

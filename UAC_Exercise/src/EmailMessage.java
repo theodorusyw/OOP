@@ -1,5 +1,4 @@
 public class EmailMessage extends Message {
-
     public EmailMessage(ILogin login, String sender, String recipient, String content) {
         super(login, sender, recipient, content);
     }

@@ -1,6 +1,6 @@
 public class BasicLogin implements ILogin {
-    private final String expectedUsername;
-    private final String expectedPassword;
+    public String expectedUsername;
+    public String expectedPassword;
 
     public BasicLogin(String expectedUsername, String expectedPassword) {
         this.expectedUsername = expectedUsername;

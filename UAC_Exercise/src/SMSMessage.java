@@ -1,5 +1,4 @@
 public class SMSMessage extends Message {
-
     public SMSMessage(ILogin login, String sender, String recipient, String content) {
         super(login, sender, recipient, content);
     }

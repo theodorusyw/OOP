@@ -1,8 +1,8 @@
 public class Message {
-    protected ILogin login;
-    protected String sender;
-    protected String recipient;
-    protected String content;
+    public ILogin login;
+    public String sender;
+    public String recipient;
+    public String content;
 
     public Message(ILogin login, String sender, String recipient, String content) {
         this.login = login;
