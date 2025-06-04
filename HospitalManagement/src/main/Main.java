@@ -16,7 +16,7 @@ public class Main {
         hospital.addStaff(nurse);
         hospital.registerPatient(patient);
 
-        LoginSystem login = new BasicLogin("John", "1234");
+        ILogin login = new BasicLogin("John", "1234");
         patient.setLoginSystem(login);
 
         Service heartCheck = new HealthCheckService("Heart Check", 500.0, doctor);
